@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textviewplaynhacindex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="1"
+            android:textSize="17dp"
+            android:textColor="#ffff" />
+
+        <TextView
+            android:id="@+id/textviewplaynhactenbaihat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/textviewplaynhacindex"
+            android:layout_marginStart="10dp"
+            android:text="Tên ca khúc"
+            android:textSize="17dp"
+            android:textColor="#ffff"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:maxWidth="250dp"
+            android:layout_alignBaseline="@id/textviewplaynhacindex" />
+
+        <TextView
+            android:id="@+id/textviewplaynhactencasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/textviewplaynhacindex"
+            android:layout_below="@id/textviewplaynhactenbaihat"
+            android:layout_marginStart="10dp"
+            android:text="Ca sĩ"
+            android:textSize="12dp"
+            android:textColor="#ffff"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_alignStart="@id/textviewplaynhactenbaihat"
+            android:layout_alignEnd="@id/textviewplaynhactenbaihat"
+            android:layout_marginTop="4dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
